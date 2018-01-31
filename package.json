@@ -1,0 +1,30 @@
+{
+  "name": "graphql_server",
+  "version": "1.0.0",
+  "description": "GraphQL Express ES6 Babel",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leihuagh/graphql_server.git"
+  },
+  "keywords": [],
+  "author": "Lei Hua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leihuagh/graphql_server/issues"
+  },
+  "homepage": "https://github.com/leihuagh/graphql_server#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.12.3"
+  }
+}
